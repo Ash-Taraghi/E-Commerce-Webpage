@@ -6,34 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashstore | E-commerce Webpage</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@300;400;500;600;700&family=The+Nautigal:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="nav-bar">
-        <div class="logo"><img src="images/Logo.JPG" src="Ashoe Logo" /></div>
-        <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Products</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li id="last"><a href="">Account</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="row">
-        <div class="col-2" id="first-col">
-          <h1>
-            Walk, Jog, Sprint <br />
-            anywhere <br /><strong>with comfort!</strong>
-          </h1>
-          <p>
-            We walk all the time in our lives. Well now you can walk in peak
-            comfort with the all new, super comftorable, sustainable, Ashoe!
-          </p>
+    <!-- Header of website -->
+    <div class="header" id="Home">
+      <div class="container">
+        <div class="nav-bar">
+          <div class="logo"><img src="images/Logo.JPG" src="Ashoe Logo" /></div>
+          <nav>
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Products">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li id="last"><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <a href=""
+            ><img class="cart" src="images/cart.jpg" alt="Shopping Cart"
+          /></a>
         </div>
-        <div class="col-2">
-          <img src="images/Shoe.png" alt="Shoe Image" />
+        <div class="row">
+          <div class="col-2" id="first-col">
+            <h1>
+              Walk, Jog, Sprint <br />
+              anywhere <br /><strong>with comfort!</strong>
+            </h1>
+            <p>
+              We walk all the time in our lives. Well now you can walk in peak
+              comfort with the all new, super comftorable, sustainable, Ashoe!
+              Browse a variety of products to find the right fit for you! Sign
+              up for our premium members club to recieve monthly care packages
+              of the latest drops so you don't miss out!
+            </p>
+            <a href="" class="button">Learn More &rArr; </a>
+          </div>
+          <div class="col-2">
+            <img src="images/Shoe.png" alt="Shoe Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- product display -->
+    <div class="products">
+      <div class="mini-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/model1.jpg" alt="product1" />
+          </div>
+          <div class="col-3">
+            <img src="images/model2.jpg" alt="product2" />
+          </div>
+          <div class="col-3">
+            <img src="images/model-3.webp" alt="product3" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Featured Products -->
+    <div id="Products">
+      <div class="mini-container">
+        <h2 class="title">Feature Products</h2>
+        <div class="row">
+          <div class="col-4">
+            <img src="images/Shoe1.png" alt="Shoe product 1" />
+            <h4>Red Lebron Elites</h4>
+            <div class="rating"><i class="fa fa-star"></i></div>
+            <p>$120.00 USD</p>
+          </div>
+          <div class="col-4">
+            <img src="images/Shoe2.png" alt="Shoe product 2" />
+            <h4>Jordan Clean Walks</h4>
+            <p>$150.00 USD</p>
+          </div>
+          <div class="col-4">
+            <img src="images/Shoe3.png" alt="Shoe product 3" />
+            <h4>Offset Spray Paints</h4>
+            <p>$80.00 USD</p>
+          </div>
         </div>
       </div>
     </div>
