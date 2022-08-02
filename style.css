@@ -229,6 +229,7 @@ html {
   line-height: 60px;
   text-decoration: solid;
   color: rgb(65, 64, 64);
+  text-shadow: 1px 3px 6px rgb(65, 65, 65);
 }
 
 .title::after {
@@ -257,5 +258,10 @@ html {
 
 /* do some work with the background here */
 #Products {
-  background: radial-gradient(rgb(202, 159, 150), rgb(255, 255, 255));
+  background: radial-gradient(rgb(202, 159, 150), rgb(255, 222, 222));
+}
+
+.rating {
+  padding-left: 25px;
+  color: rgb(187, 159, 0);
 }
