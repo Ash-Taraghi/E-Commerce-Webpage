@@ -224,7 +224,7 @@ html {
 .title {
   text-align: center;
   font-weight: bolder;
-  margin: 0 auto 60px;
+  margin: 0 auto 50px;
   position: relative;
   line-height: 60px;
   text-decoration: solid;
@@ -237,6 +237,31 @@ html {
   background: indianred;
   font-weight: bolder;
   width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5;
+}
+
+.title2 {
+  text-align: center;
+  font-weight: bolder;
+  margin: 0 auto 40px;
+  position: relative;
+  line-height: 60px;
+  text-decoration: solid;
+  color: rgb(65, 64, 64);
+  text-shadow: 1px 3px 6px rgb(65, 65, 65);
+}
+
+.title2::after {
+  content: "";
+  background: indianred;
+  font-weight: bolder;
+  width: 150px;
   height: 5px;
   border-radius: 5px;
   position: absolute;
@@ -263,5 +288,50 @@ html {
 
 .rating {
   padding-left: 25px;
-  color: rgb(187, 159, 0);
+  color: rgb(172, 34, 0);
+}
+
+.spx p,
+.spx h4,
+.spx .rating {
+  padding-left: 5px !important;
+}
+
+.watch {
+  width: 205px;
+  height: 180px;
+}
+
+.headphone {
+  width: 205px;
+  height: 150px;
+}
+
+#special {
+  margin-top: 35px;
+}
+
+#special2 {
+  margin-top: 35px;
+}
+
+/* Exclusive Offers */
+
+.Offer {
+  background: radial-gradient(rgb(255, 255, 255), rgb(175, 175, 175));
+  padding: 50px 0;
+}
+
+#exclusive {
+  padding-right: 100px;
+}
+
+#exclusive:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#exclusive:not(:hover) {
+  transform: scale(1);
+  transition: 0.5s;
 }
