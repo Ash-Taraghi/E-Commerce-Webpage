@@ -335,3 +335,65 @@ html {
   transform: scale(1);
   transition: 0.5s;
 }
+
+/* Testemonials Section */
+
+.Testemonial .rating {
+  padding-left: 0px;
+}
+
+.Testemonial {
+  padding-top: 100px;
+}
+
+.Testemonial .col-3 {
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.Testemonial .col-3 img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.Testemonial .col-3:hover {
+  transform: translateY(-10px);
+}
+
+.fa.fa-quote-left {
+  font-size: 34px;
+}
+
+.Testemonial .col-3 p {
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.Testemonial .col-3 h3 {
+  color: #555;
+}
+
+/* Brands */
+
+.brands {
+  margin: 100px auto;
+}
+
+.col-5 {
+  width: 100px;
+}
+
+.col-5 img {
+  width: 100%;
+  cursor: pointer;
+}
+
+#logos {
+  margin: 10px 0;
+  box-shadow: 0px 0px 4px 6px rgb(0, 0, 0, 0.3);
+}
